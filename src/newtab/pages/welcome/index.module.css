@@ -1,0 +1,12 @@
+.logo {
+  animation: logo-spin 20s linear infinite;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "types": ["vite/client", "chrome"],
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@root/*": ["src/*"],
+      "@popup/*": ["src/popup/*"],
+      "@newtab/*": ["src/newtab/*"],
+      "@background/*": ["src/background/*"]
+    }
+  }
+}
